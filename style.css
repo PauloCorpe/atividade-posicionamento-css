@@ -1,0 +1,121 @@
+.body3{
+  margin: 0%;
+  padding: 0%;
+}
+.primeira{background-color: blue;
+  height: 99vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 200px;
+  margin-right: 200px;
+  position: relative;
+}
+.segunda{background-color:red; 
+height: 550px;
+width:750px ;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+position: relative;
+}
+.terceira{background-color:black;
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+height:400px;
+width:550px;
+}
+.quarta{
+background-color: green;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+height:200px;
+width:250px;
+}
+.quinta{
+  background-color:yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height:100px;
+  width:100px;
+}
+.body{margin: 1px;
+padding: 1px;
+}
+.esquerda-superior{background-color: gray;
+height: 250px;
+width: 250px;
+float: left;
+top:0;
+}
+.direita-superior{
+  background-color:gray;
+  height: 250px;
+  width: 250px;
+  float: right;
+  top:0;
+}
+.esquerda-inferior{ 
+    background-color: gray;
+    height: 250px;
+    width: 250px;
+    float: left;
+    position:absolute;
+    bottom:0;
+}
+.direita-inferior{
+    background-color:gray;
+    height: 250px;
+    width: 250px;
+    float: right 0%;
+    position:absolute;
+    bottom:0;
+    left:81,4%;
+    right: 0;
+}
+.coluna1{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 60px;
+}
+.coluna2{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 60px;
+  margin-top: 10px;
+}
+.coluna3{
+  margin-top: 10px;
+}
+.coluna4{
+  position: absolute;
+  bottom: 0%;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 60px;
+  left: 56em;
+}
+.coluna5{
+  position: absolute;
+  float: right;
+  bottom:160px;
+  left: 66em;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  gap: 60px;
+}
+.coluna6{
+  position: absolute;
+  float: right;
+  bottom:320px;
+  left: 76em;
+  gap: 60px;
+}
